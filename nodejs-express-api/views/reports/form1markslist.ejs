@@ -1,0 +1,50 @@
+
+<div id="report-title"><h1>Form 1 Marks</h1></div>
+<table className="table table-sm table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Year</th>
+            <th>Term</th>
+            <th>Form</th>
+            <th>Math</th>
+            <th>Eng</th>
+            <th>Kis</th>
+            <th>Chem</th>
+            <th>Phy</th>
+            <th>Bio</th>
+            <th>Geo</th>
+            <th>Hist</th>
+            <th>Cre</th>
+            <th>Bus</th>
+            <th>Fullname</th>
+            <th>Comp</th>
+            <th>Total</th>
+            <th>Average</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% records.forEach(function(record){ %>
+        <tr>
+            <td><%= record.id %></td>
+            <td><%= record.year %></td>
+            <td><%= record.term %></td>
+            <td><%= record.form %></td>
+            <td><%= record.math %></td>
+            <td><%= record.eng %></td>
+            <td><%= record.kis %></td>
+            <td><%= record.chem %></td>
+            <td><%= record.phy %></td>
+            <td><%= record.bio %></td>
+            <td><%= record.geo %></td>
+            <td><%= record.hist %></td>
+            <td><%= record.cre %></td>
+            <td><%= record.bus %></td>
+            <td><%= record.fullname %></td>
+            <td><%= record.comp %></td>
+            <td><%= record.total %></td>
+            <td><%= record.average %></td>
+        </tr>
+        <% }); %>
+    </tbody>
+</table>
