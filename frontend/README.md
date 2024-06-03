@@ -1,7 +1,5 @@
 # Getting Started with Project Frontend
 
-### This project was generated with [RadSystems](https://radsystems.io)
-
 ## Available Scripts
 In the project directory:
 
@@ -37,7 +35,3 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 - ```src/App.js``` app main layout
 - ```src/index.js``` application entry point
 - ```src/.env``` app configurations
-
-### For more info
-See [RadSystems](https://radsystems.io/)
-See [PrimeReact Framework](https://www.primefaces.org/primereact/)
